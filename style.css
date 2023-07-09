@@ -121,3 +121,6 @@
     text-align: center;
     color: gray;
 }
+.hr-tag{
+    border: 1px solid gray;
+}
