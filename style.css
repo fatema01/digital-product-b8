@@ -29,3 +29,31 @@
     color: blue;
     /* mouse color change  */
 }
+.banner-img{
+    width: 300px;
+}
+.banner-container{
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    align-items: center;
+    /* border: 2px solid gray; */
+    color: white;
+    background-image: url("./images/background.png"), linear-gradient(45deg,#080808,#535353);
+}
+.title{
+  font-size: 55px;
+  font-weight: bold;
+}
+.description{
+    font-size: 18px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    /* border-radius: 5px; */
+}
