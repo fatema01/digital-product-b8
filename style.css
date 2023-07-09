@@ -40,6 +40,9 @@
     /* border: 2px solid gray; */
     color: white;
     background-image: url("./images/background.png"), linear-gradient(45deg,#080808,#535353);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .title{
   font-size: 55px;
@@ -55,5 +58,9 @@
     background-color: red;
     color: white;
     border: none;
+    cursor: pointer;
     /* border-radius: 5px; */
+}
+.btn:hover{
+    color: blue;
 }
